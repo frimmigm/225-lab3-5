@@ -6,7 +6,7 @@ pipeline {
         DOCKER_IMAGE = 'cithit/frimmigm'                                                                    //<------change this
         IMAGE_TAG = "build-${BUILD_NUMBER}"
         GITHUB_URL = 'https://github.com/frimmigm/225-lab3-5.git'                                          //<------change this
-        KUBECONFIG = credentials('frimmigm-test-credentials')                                                         //<------change this
+        KUBECONFIG = credentials('frimmigm-225')                                                         //<------change this
     }
 
     stages {
